@@ -1,0 +1,57 @@
+.container-body__upgrades-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  border: rgb(255, 255, 255) 1px solid;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  background-color: black;
+  width: 30%;
+}
+
+.container-body__upgrade {
+  border: rgb(255, 255, 255) 1px solid;
+  border-radius: 5px;
+  margin: 13px;
+  padding: 10px;
+  background-color: #bb94c5;
+  color: white;
+  justify-content: space-between;
+  display: flex;
+}
+
+.container-body__upgrade-button-count-css {
+  border: rgb(255, 255, 255) 1px solid;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #bb94c5;
+  color: white;
+  justify-content: space-between;
+  display: flex;
+}
+
+.upgrades__button {
+  color: black;
+  background-color: rgb(0, 233, 144);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.upgrade-cost-css {
+  border: rgb(0, 0, 0) 1px solid;
+  border-radius: 50px;
+  margin: 2px;
+  padding: 5px;
+  background-color: #0066a1;
+  color: white;
+  justify-content: space-between;
+  display: flex;
+}

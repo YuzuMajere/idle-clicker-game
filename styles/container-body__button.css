@@ -1,0 +1,23 @@
+.container-body__button {
+  color: white;
+  background-color: orange;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 15% 15%;
+  cursor: pointer;
+}
+
+.container-body__button:hover {
+  background-color: #8f00b3;
+}
+
+.container-body__button:active {
+  background-color: #00b318;
+}
+
+#reset-button-js {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+}

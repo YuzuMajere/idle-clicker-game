@@ -1,0 +1,38 @@
+body {
+  background-color: #bb94c5;
+}
+
+.container-body__names-for-counters-grid {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+  border: rgb(255, 255, 255) 1px solid;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  width: 38.5%;
+  margin-left: 0px;
+  margin-bottom: 5px;
+}
+
+.container-body__counters-grid {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+  border: rgb(255, 255, 255) 1px solid;
+  border-radius: 5px;
+  width: 40%;
+}
+
+.container-body__quid-count,
+.container-body__manual-click-count,
+.container-body__passive-cycle-speed {
+  margin: 5px;
+  border: rgb(255, 255, 255) 1px solid;
+  border-radius: 5px;
+  padding: 25px;
+  color: blue;
+  position: relative;
+}
