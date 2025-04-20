@@ -71,6 +71,6 @@ setTimeout(() => {
     console.log(timeSinceLastSession);
   };
 
-}, 1);
+}, 10);
 
 window.onbeforeunload = () => localStorage.setItem('lastSession', Date.now());
